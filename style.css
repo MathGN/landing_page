@@ -17,6 +17,7 @@ html, body {
     margin: 0;
     flex-grow: 1;
     gap: 100px;
+    min-height: 500px;
 }
 
 .header {
@@ -104,6 +105,10 @@ button {
 
 .rand-info {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
 }
 
 .quote {
@@ -113,4 +118,41 @@ button {
 
 .call-button {
     flex-grow: 1;
+}
+
+.title2 {
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    height: 164px;
+    width: 164px;
+    border: solid 4px #3882F6;
+    border-radius: 20px;
+}
+
+.text {
+    max-width: 160x;
+    font-size: 18px;
 }
