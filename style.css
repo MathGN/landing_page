@@ -111,9 +111,15 @@ button {
     min-height: 500px;
 }
 
-.quote {
+.quote-container {
     flex-grow: 1;
-    flex-basis: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    justify-content: center;
+    font-weight: 100;
 }
 
 .call-button {
@@ -155,4 +161,19 @@ button {
 .text {
     max-width: 160x;
     font-size: 18px;
+}
+
+.quote {
+    font-weight: 200;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 60%;
+}
+
+.quote2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 16px;
 }
