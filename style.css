@@ -124,6 +124,10 @@ button {
 
 .call-button {
     flex-grow: 1;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title2 {
@@ -176,4 +180,45 @@ button {
     font-weight: bold;
     margin-left: 35%;
     margin-top: 16px;
+}
+
+.box {
+    background-color: #3882F6;
+    display: flex;
+    min-width: 73%;
+    min-height: 43%;
+    border-radius: 7px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.t1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.t2 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.box .sign-up {
+    border: 2px solid #E5E7EB;
+    max-width: 135px;
+    border-radius: 10px;
+    padding: 4px 32px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.footer {
+    min-height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
 }
